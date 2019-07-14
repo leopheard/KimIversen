@@ -20,7 +20,7 @@ YOUTUBE_CHANNEL_ID = "UCoJTOwZxbvq8Al8Qat2zgTA"
 
 # Entry point
 def run():
-    plugintools.log("kimiversen.run")
+    plugintools.log("kimiversenshow.run")
     
     # Get params
     params = plugintools.get_params()
@@ -34,7 +34,7 @@ def run():
 
 # Main menu
 def main_list(params):
-    plugintools.log("kimiversen.main_list "+repr(params))
+    plugintools.log("kimiversenshow.main_list "+repr(params))
 #note below - some YTs are /user/xxx and some /channel/xxx
     plugintools.add_item( 
         #action="", 
