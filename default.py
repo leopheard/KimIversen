@@ -4,7 +4,6 @@
 #------------------------------------------------------------
 # Based on code from youtube addon
 #------------------------------------------------------------
-
 import os
 import sys
 import plugintools
